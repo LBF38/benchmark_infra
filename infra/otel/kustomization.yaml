@@ -1,9 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-resources:
-  - grafana_helmrepo.yaml
-  - grafana_helmrelease.yaml
-  - opentelemetry-operator.yaml
-
 metadata:
-  namespace: observability
+  name: otel
+  namespace: otelcol
+resources:
+  - opentelemetry-operator.yaml
+  - otelcol.yaml
