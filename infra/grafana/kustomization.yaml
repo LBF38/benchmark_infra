@@ -5,7 +5,6 @@ resources:
   - grafana_helmrelease.yaml
   - namespace.yaml
   - loki.hr.yaml
-  - mimir.hr.yaml
   - tempo.hr.yaml
 # metadata:
 #   namespace: observability
