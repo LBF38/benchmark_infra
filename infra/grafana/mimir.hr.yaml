@@ -7,7 +7,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: mimir
+      chart: mimir-distributed
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
