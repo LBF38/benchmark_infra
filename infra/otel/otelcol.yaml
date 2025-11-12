@@ -4,6 +4,7 @@ metadata:
   name: simple-otelcol
   namespace: observability
 spec:
+  mode: deployment
   config:
     receivers:
       otlp:
